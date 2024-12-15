@@ -27,5 +27,6 @@ int main(){
         end--;
     }
     cout << endl;
+    
     return 0;
 }
