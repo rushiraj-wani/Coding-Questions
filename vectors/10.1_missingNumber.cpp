@@ -10,12 +10,18 @@
 using namespace std;
 
 int missingNumber(vector<int>& nums) {
+    // size of n;
     int n = nums.size();
+
+    // assume missing element is n;
     int result = n;
 
+    // XOR all elements in the array and n;
     for(int i=0; i<n; i++){
+        // XOR result with i then with nums[i];
         result ^= i ^ nums[i];
     }   
+    
     return result;
 }
 
