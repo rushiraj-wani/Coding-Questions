@@ -16,6 +16,13 @@ void printArray(int arr[], int n) {
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
+
+    /* This works only with vector, or use this in main.
+    for(auto nums : arr){
+        cout << nums << " ";
+    }
+    */
+    
     cout << endl;
 }
 
