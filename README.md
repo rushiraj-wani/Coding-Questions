@@ -1,3 +1,5 @@
 ### Welcome to this coding questions repository 
 
-###### This repository contains coding questions that I work on.
+###### This reposity have all the questions of DSA that I solve.
+
+
